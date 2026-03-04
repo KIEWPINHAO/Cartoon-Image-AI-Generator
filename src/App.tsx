@@ -387,14 +387,14 @@ export default function App() {
       </AnimatePresence>
 
       <footer className="py-8 border-t border-white/5 mt-auto">
-        {/* <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-zinc-500 text-sm">
-          <p>© 2024 Visionary Studio. Powered by Gemini 2.5 Flash Image.</p>
-          <div className="flex items-center gap-6">
+        {<div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4 text-zinc-500 text-sm">
+          <p>Created by Pin Hao.</p>
+          {/* <div className="flex items-center gap-6">
             <a href="#" className="hover:text-white transition-colors">Terms</a>
             <a href="#" className="hover:text-white transition-colors">Privacy</a>
             <a href="#" className="hover:text-white transition-colors">API Status</a>
-          </div>
-        </div> */}
+          </div> */}
+        </div>}
       </footer>
     </div>
   );
