@@ -58,7 +58,7 @@ export default function App() {
     setError(null);
 
     try {
-      const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+      const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
       const rubberHosePrompt = `Create a 1930s rubber hose cartoon style image of: ${prompt}. Characteristics: black and white, high contrast, ink-blot eyes, noodle-like limbs, white gloves, pie-cut eyes, vintage animation aesthetic, grainy film texture.`;
 
       const response = await ai.models.generateContent({
